@@ -7,22 +7,50 @@
 Rumen Kostadinov, Ph.D.
 Research Associate
 Pediatric Oncology
+Laboratory of Patrick A. Brown
 Sidney Kimmel Comprehensive Cancer Center
 Johns Hopkins University
-rumen@alumni.upenn.edu
 </pre>
-  </br>
+</br>
 <pre>
-I am a computational cancer biologist. 
-Currently, I am doing research on epigenetics of leukemia working with Patrick Brown. 
-I collaborate with Pediatric Genomic Medicine, Children's Mercy Kansas City.
-I obtained my PhD from the Genomics and Computational Biology program at 
-the University of Pennsylvania with Carlo Maley. During my PhD I worked on analyzing 
-evolutionary dynamics of neoplastic cell populations in Barrett’s Esophagus. 
-I have written software for DNA copy number data analysis, SNP array data analysis, 
-phylogenetic analysis, RNA sequencing data analysis, DNA bisulfite sequencing data analysis, 
-and spatial stochastic tumor evolution simulation. 
-I use C++, Java, Emacs, shell scripting, R, and any other tools to get the job done.
+Currently, I develop computational methods for analysis of 
+whole genome DNA, RNA, and DNA methylation sequencing data 
+from infant MLL-rearranged leukemias.
+
+Current software (under development):
+-------------------------------------
+RNA sequencing data analysis:
+- rsem/STAR/EBseq/limma-voom analysis pipeline
+
+DNA bisulfite sequencing data analysis:
+- epitoolkit: a suite of C++ programs for analysis of WGBS data (with some tools also working on WGS and RNA-seq data)
+- Expectation maximization (EM) algorithm for methylation-defined subclonal deconvolution
+
+
+Previously, I developed software for phylogenetic analysis and
+copy number analysis to characterize clonal evolutionary dynamics in Barrett’s esophagus.
+
+Past software (completed):
+--------------------------------
+Phylogenetic analysis tools:  
+- BEAST modification: additions of 0/1 binary evolutionary model, sequence error model, and a cenancestor node
+  to allow inference from copy number and LOH biopsy data
+- PAUP analysis: modeling copy number and LOH changes for maximum parsimony inference
+
+Simulation:
+- Cryptsim: Spatial stochastic tumor evolution simulator that keeps track of phylogenies
+- SerialSimCoal modification: addition of a LOH/copy number evolutionary model to a coalescent simulator
+
+Illumina SNP array analysis tools:
+- DNA copy number data from SNP arrays analysis pipeline that
+  includes impute2 for allele-specific changes, and segmentation with thresholds for calling
+  copy number and LOH events.
+  
+Publications:
+-------------
+
+  
+  
 </pre>
 </body>
 </html>
